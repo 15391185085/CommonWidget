@@ -1,0 +1,68 @@
+<resources>
+
+    <dimen name="time_text">15dip</dimen>
+    <dimen name="time_item_height">22dip</dimen>
+    <!-- 文字 -->
+    <dimen name="common_textsize00">10.6sp</dimen>
+    <dimen name="common_textsize0">12.0sp</dimen>
+    <dimen name="common_textsize1">14.0sp</dimen>
+    <dimen name="common_textsize2">16.0sp</dimen>
+    <dimen name="common_textsize_one">18.0sp</dimen>
+    <dimen name="common_textsize_two">20.0sp</dimen>
+    <dimen name="common_textsize_three">22.0sp</dimen>
+    <dimen name="common_textsize_four">24.0sp</dimen>
+    <dimen name="common_textsize_five">26.0sp</dimen>
+
+    <!-- 其他 -->
+    <dimen name="bottombar_button_margin01">3.0dip</dimen>
+    <dimen name="bottombar_button_margin02">4.0dip</dimen>
+    <dimen name="bottombar_button_margin03">6.0dip</dimen>
+    <dimen name="bottombar_button_margin04">8.0dip</dimen>
+    <dimen name="bottombar_button_margin05">10.0dip</dimen>
+    <dimen name="bottombar_button_margin06">20.0dip</dimen>
+    <dimen name="widget_edittext_height01">95.0dip</dimen>
+    <dimen name="widget_edittext_height02">155.0dip</dimen>
+    <dimen name="widget_edittext_height03">215.0dip</dimen>
+    <dimen name="widget_button_width99">60.0dip</dimen>
+    <dimen name="widget_button_width00">64.0dip</dimen>
+    <dimen name="widget_button_width01">72.0dip</dimen>
+    <dimen name="widget_button_width02">80.0dip</dimen>
+    <dimen name="widget_button_width03">84.0dip</dimen>
+    <dimen name="widget_button_height97">35dip</dimen>
+    <dimen name="widget_button_height98">40dip</dimen>
+    <dimen name="widget_button_height99">45dip</dimen>
+    <dimen name="widget_button_height00">50dip</dimen>
+    <dimen name="widget_button_height01">55dip</dimen>
+    <dimen name="widget_button_height02">60dip</dimen>
+    <dimen name="widget_button_height03">65dip</dimen>
+    <dimen name="widget_title_width00">95.0dip</dimen>
+    <dimen name="widget_title_width01">115.0dip</dimen>
+    <dimen name="widget_title_width02">155.0dip</dimen>
+    <dimen name="widget_title_width03">195.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_dialog_message_textsize">27.0sp</dimen>
+    <dimen name="common_searchbox_home_magnifier_margin">12.0dip</dimen>
+    <dimen name="common_searchbox_search_high">57.0dip</dimen>
+    <dimen name="common_left_backbtn_width">54.0dip</dimen>
+    <dimen name="common_right_text_width">54.0dip</dimen>
+    <dimen name="common_searchbox_search_cleanbtn_marginright">10.0dip</dimen>
+    <dimen name="alert_dialog_message_margin_left">20.0dip</dimen>
+    <dimen name="alert_dialog_message_margin_right">20.0dip</dimen>
+    <dimen name="common_topbar_high">50.0dip</dimen>
+    <dimen name="common_topbar_text_high">40.0dip</dimen>
+    <dimen name="common_right_image_text_width">84.0dip</dimen>
+    <dimen name="alert_dialog_min_width">320.0dip</dimen>
+    <dimen name="alert_dialog_frame_margin">20.0dip</dimen>
+    <dimen name="alert_dialog_title_margin_left">20.0dip</dimen>
+    <dimen name="alert_dialog_title_margin_right">20.0dip</dimen>
+    <dimen name="alert_dialog_title_height">60.0dip</dimen>
+    <dimen name="alert_dialog_title_textsize">25.0sp</dimen>
+    <dimen name="alert_dialog_message_height">80.0dip</dimen>
+    <dimen name="alert_dialog_message_margin_bottom">15.0dip</dimen>
+    <dimen name="alert_dialog_message_margin_top">15.0dip</dimen>
+    <dimen name="alert_dialog_button_height">45.0dip</dimen>
+    <dimen name="alert_dialog_button_textsize">23.0sp</dimen>
+    <dimen name="commom_poi_layer_text_interval">2.0dip</dimen>
+
+</resources>

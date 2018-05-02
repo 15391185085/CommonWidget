@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/widget_button_height00"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/bottombar_button_margin05"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="@color/common_text" 
+        android:textSize="@dimen/common_textsize_one"/>
+
+    <CheckBox
+        android:id="@+id/check_box"
+        style="@style/check_button"
+        android:clickable="false"
+        android:focusable="false" />
+
+</LinearLayout>

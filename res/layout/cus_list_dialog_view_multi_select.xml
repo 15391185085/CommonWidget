@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_top_layer_without_projection_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_topbar_high" >
+
+        <TextView
+            android:id="@+id/title_label"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="请选择"
+            android:textColor="#ff0894ee"
+            android:textSize="@dimen/common_textsize_one"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/btn_disabled" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edit1"
+        style="@style/widget_edittext_fill"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:hint="请输入名称..." >
+    </EditText>
+
+    <ListView
+        android:id="@+id/cus_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:cacheColorHint="@null"
+        android:divider="@color/bright_foreground_light_disabled"
+        android:dividerHeight="0.5dip" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_select_all"
+            style="@style/Style_Dialog_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/bottombar_button_margin04"
+            android:layout_weight="1"
+            android:text="@string/all_choose" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            style="@style/Style_Dialog_Button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/bottombar_button_margin04"
+            android:layout_weight="1"
+            android:text="@string/confirm" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/Style_Dialog_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/bottombar_button_margin04"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/widget_layer" >
+
+        <TextView
+            android:id="@+id/text1"
+            style="@style/widget_title"
+            android:text="" />
+
+        <Button
+            android:id="@+id/spinner1"
+            style="@style/common_button.normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="45dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/bottombar_button_margin05"
+            android:paddingRight="@dimen/bottombar_button_margin05"
+            android:drawableRight="@drawable/btn_time_icon"
+            android:enabled="false"
+            android:singleLine="true"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>

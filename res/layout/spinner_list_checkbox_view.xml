@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_top_layer_without_projection_bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ToggleButton
+            android:id="@+id/allChoose"
+            style="@style/common_button.blue.transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textOff="@string/all_choose"
+            android:textOn="清空"
+            android:enabled="false"
+            android:text="adfasdf"
+            android:textSize="@dimen/common_textsize_one"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="请选择"
+            android:textAppearance="@style/NavTopBarMiddleText" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/cus_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/round_style_bg"
+        android:cacheColorHint="@null"
+        android:divider="@color/bright_foreground_light_disabled"
+        android:dividerHeight="0.5dip" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/editLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnChoose"
+        style="@style/common_button.normal"
+        android:layout_width="match_parent"
+        android:layout_margin="0dp"
+        android:minHeight="@dimen/widget_button_height01"
+        android:text="选择" />
+
+</LinearLayout>

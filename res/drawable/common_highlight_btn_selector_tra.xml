@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/common_highlight_btn_pressed_tra" />
+    <item android:state_enabled="false" android:drawable="@drawable/common_highlight_btn_normal_tra" />
+    <item android:drawable="@drawable/common_highlight_btn_normal_tra" />
+</selector>

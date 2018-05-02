@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:drawable="@drawable/common_highlight_full_btn_normal" />
+    <item android:drawable="@drawable/common_topbar_right_text_bg" />
+</selector>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mainButtonLayer"
+        style="@style/widget_layer_horizontal"
+        android:paddingLeft="@dimen/bottombar_button_margin01"
+        android:paddingRight="@dimen/bottombar_button_margin01"
+        android:paddingTop="@dimen/bottombar_button_margin01" >
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/common_button.normal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/layout_btn_color01"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/common_button.normal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/layout_btn_color02"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/common_button.normal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/layout_btn_color03"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/common_button.normal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/layout_btn_color04"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/common_button.normal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/layout_btn_color05"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
